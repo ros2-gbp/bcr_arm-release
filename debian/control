@@ -1,0 +1,12 @@
+Source: ros-humble-bcr-arm-description
+Section: misc
+Priority: optional
+Maintainer: Vimarsh Shah <vimarsh@blackcoffeerobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-urdf-tutorial, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-bcr-arm-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-urdf-tutorial, ros-humble-ros-workspace
+Description: robot description files including urdf, meshes and launch files for the bcr arm
