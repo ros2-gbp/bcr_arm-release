@@ -2,6 +2,7 @@
 Changelog for package bcr_arm
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.0 (2025-07-02)
+0.1.0 (2025-09-17)
 ------------------
-* Initial release of the bcr_arm package.
+* Initial release of meta-package.
+* Contributors: mathew4STAR
