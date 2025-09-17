@@ -1,0 +1,9 @@
+ros-humble-bcr-arm-ros2 (0.1.0-1jammy) jammy; urgency=high
+
+  * Initial public release of BCR Arm ROS 2 package.
+  * Updated maintainers and license information.
+  * Contributors: Vimarsh, Mathew
+
+ -- Vimarsh Shah <vimarsh@blackcoffeerobotics.com>  Wed, 17 Sep 2025 00:00:00 -0000
+
+
