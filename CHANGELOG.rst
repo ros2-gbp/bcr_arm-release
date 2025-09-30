@@ -1,7 +1,9 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package bcr_arm
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package bcr_arm_ros2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.0 (2025-07-02)
+0.1.0 (2025-09-17)
 ------------------
-* Initial release of the bcr_arm package.
+* Initial public release of BCR Arm ROS 2 package.
+* Updated maintainers and license information.
+* Contributors: Vimarsh, Mathew
