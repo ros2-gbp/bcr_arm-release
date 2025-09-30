@@ -1,0 +1,12 @@
+Source: ros-humble-bcr-arm-gazebo
+Section: misc
+Priority: optional
+Maintainer: Vimarsh Shah <vimarsh@blackcoffeerobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libignition-plugin-dev, python3-numpy, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-controller-manager, ros-humble-gripper-controllers, ros-humble-gz-ros2-control, ros-humble-rclcpp, ros-humble-ros-gz, ros-humble-ros-gz-bridge, ros-humble-ros-gz-image, ros-humble-ros-gz-sim, ros-humble-ros2-control, ros-humble-ros2-controllers, ros-humble-trajectory-msgs, ros-humble-xacro, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-bcr-arm-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-plugin-dev, python3-numpy, ros-humble-controller-manager, ros-humble-gripper-controllers, ros-humble-gz-ros2-control, ros-humble-rclcpp, ros-humble-ros-gz, ros-humble-ros-gz-bridge, ros-humble-ros-gz-image, ros-humble-ros-gz-sim, ros-humble-ros2-control, ros-humble-ros2-controllers, ros-humble-trajectory-msgs, ros-humble-xacro, ros-humble-ros-workspace
+Description: gazebo simulation and control scripts for bcr 7-dof robotic arm
