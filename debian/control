@@ -1,0 +1,12 @@
+Source: ros-jazzy-bcr-arm-gazebo
+Section: misc
+Priority: optional
+Maintainer: Vimarsh Shah <vimarsh@blackcoffeerobotics.com>
+Build-Depends: debhelper (>= 9.0.0), python3-numpy, ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-controller-manager, ros-jazzy-gripper-controllers, ros-jazzy-gz-ros2-control, ros-jazzy-rclcpp, ros-jazzy-ros-gz, ros-jazzy-ros-gz-bridge, ros-jazzy-ros-gz-image, ros-jazzy-ros-gz-sim, ros-jazzy-ros2-control, ros-jazzy-ros2-controllers, ros-jazzy-trajectory-msgs, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-bcr-arm-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-numpy, ros-jazzy-controller-manager, ros-jazzy-gripper-controllers, ros-jazzy-gz-ros2-control, ros-jazzy-rclcpp, ros-jazzy-ros-gz, ros-jazzy-ros-gz-bridge, ros-jazzy-ros-gz-image, ros-jazzy-ros-gz-sim, ros-jazzy-ros2-control, ros-jazzy-ros2-controllers, ros-jazzy-trajectory-msgs, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Description: gazebo simulation and control scripts for bcr 7-dof robotic arm
