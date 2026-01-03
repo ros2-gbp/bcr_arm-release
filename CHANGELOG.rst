@@ -2,6 +2,22 @@
 Changelog for package bcr_arm
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.0 (2025-07-02)
+0.1.3 (2026-01-03)
 ------------------
-* Initial release of the bcr_arm package.
+* Fixed dependencies
+* Contributors: Mathew Hans 
+
+0.1.2 (2026-01-02)
+------------------
+* Synchronize package version
+* Contributors: Mathew Hans
+
+0.1.1 (2025-09-30)
+------------------
+* Minor fixes for release
+* Contributors: Mathew Hans
+
+0.1.0 (2025-09-17)
+------------------
+* Initial release of meta-package.
+* Contributors: mathew4STAR
