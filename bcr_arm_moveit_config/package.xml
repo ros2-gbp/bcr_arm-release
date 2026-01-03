@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>bcr_arm_moveit_config</name>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <description>moveit configuration and launch files for motion planning with the bcr arm</description>
   <maintainer email="vimarsh@blackcoffeerobotics.com">Vimarsh Shah</maintainer>
   <maintainer email="mathew@blackcoffeerobotics.com">Mathew Hans</maintainer>
@@ -42,11 +42,7 @@
   <exec_depend>rviz_default_plugins</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
   
-  <exec_depend>topic_based_ros2_control</exec_depend>
-  <!-- This will probably give error as it has to be built from source for non humble / rolling distros:
-    https://github.com/PickNikRobotics/topic_based_ros2_control/blob/main/doc/installation.md 
-    todo: mark as issue and integrate building from source for jazzy
-    -->
+  <!-- For isaac sim development, the pkg topic-based-ros2-control is also required but binary isn't available for jazzy so it was removed -->
 
 
   <export>
