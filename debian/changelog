@@ -1,0 +1,30 @@
+ros-jazzy-bcr-arm-ros2 (0.1.3-1noble) noble; urgency=high
+
+  * Fixed dependency issues
+  * Contributors: Mathew Hans
+
+ -- Vimarsh Shah <vimarsh@blackcoffeerobotics.com>  Sat, 03 Jan 2026 00:00:00 -0000
+
+ros-jazzy-bcr-arm-ros2 (0.1.2-1noble) noble; urgency=high
+
+  * Synchronize package version
+  * Contributors: Mathew Hans
+
+ -- Vimarsh Shah <vimarsh@blackcoffeerobotics.com>  Fri, 02 Jan 2026 00:00:00 -0000
+
+ros-jazzy-bcr-arm-ros2 (0.1.1-1noble) noble; urgency=high
+
+  * Minor fixes for release
+  * Contributors: Mathew Hans
+
+ -- Vimarsh Shah <vimarsh@blackcoffeerobotics.com>  Tue, 30 Sep 2025 00:00:00 -0000
+
+ros-jazzy-bcr-arm-ros2 (0.1.0-1noble) noble; urgency=high
+
+  * Initial public release of BCR Arm ROS 2 package.
+  * Updated maintainers and license information.
+  * Contributors: Vimarsh, Mathew
+
+ -- Vimarsh Shah <vimarsh@blackcoffeerobotics.com>  Wed, 17 Sep 2025 00:00:00 -0000
+
+
