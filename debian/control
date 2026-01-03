@@ -1,0 +1,12 @@
+Source: ros-jazzy-bcr-arm
+Section: misc
+Priority: optional
+Maintainer: Vimarsh Shah <vimarsh@blackcoffeerobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-bcr-arm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-bcr-arm-description, ros-jazzy-bcr-arm-gazebo, ros-jazzy-bcr-arm-moveit-config, ros-jazzy-ros-workspace
+Description: Metapackage for the BCR Arm robot stack
